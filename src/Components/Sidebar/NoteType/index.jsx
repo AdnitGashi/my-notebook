@@ -1,5 +1,10 @@
 import React from "react";
-const NoteType = () => {
-  return <div className="bg-red-200">Notetype</div>;
+const NoteType = (label) => {
+  console.log(label);
+  return (
+    <div className="" key={label.length}>
+      {label}
+    </div>
+  );
 };
 export default NoteType;
